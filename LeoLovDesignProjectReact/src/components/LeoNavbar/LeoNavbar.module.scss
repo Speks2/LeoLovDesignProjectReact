@@ -1,17 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .LeoNavbar {
     color: #002BC2;
-    font-family: "Inter", sans-serif;
-    position: absolute;    
-    top: 0;
-    left: 0;
-    width: 100%;      
-   ul {
-    li {
-        list-style: none;
-        text-decoration: none;
-        display: flex;              
-        justify-content: space-around; 
-        padding: 10px;
+    font-family: "Inter", sans-serif;    
+    display: flex;
+    flex-direction: row;
+    padding: 0;  
+    margin: 0;   
+    position: relative; 
+    border-bottom: 4px solid #002BC2; 
+    h2 {
+     margin-left: auto;
     }
-   }
+
+    ul {
+        display: flex;
+        flex-direction: row; 
+        padding: 0;
+    }
+
+    li {
+        padding: 10px;
+        display: flex;              
+        justify-content: space-around;
+
+        &:hover {
+            color: #27cfc4; 
+        }
+    }
+
+    a {
+        color: inherit;  
+        text-decoration: none; 
+    }
 }

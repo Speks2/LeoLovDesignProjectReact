@@ -25,6 +25,19 @@ function LeoBody() {
                 <img src="\src\assets\images\armando-arauz-v_BWg0OnFmk-unsplash (1).jpg" alt="City" />
             </div>
             
+            <div>
+                <h2>HER BOR VI</h2>
+                <p>Vi har valgt at bosætte os i solen! 
+
+                   Her er dejlig varmt og ikke ret mange fattige mennesker. Det nyder vi rigtig meget. 
+
+                   “Hvis du har råd til at tage til Sechellerne har du råd til os”. Det er et af vores utallige motto´er.
+                </p>
+                <p>Leo-Lov ApS 
+                   Maldive rd. 22 
+                   Seychelles</p>
+                <img src="src\assets\images\leolov-location.PNG" alt="map" />
+            </div>
             
         </body>
     )

@@ -4,11 +4,33 @@
 .LeoFooter {
     background: rgba(44, 59, 111, 1);
     color: #FAFAFA;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5rem; 
+    height: 100%;
+    max-width: 100%;
+    img {
+        padding: 1rem;
+    }
+  
+    h3, p {
+      margin: 2rem;
+    }
+  
     h3 {
-        font-family: "Jura";
-        font-size: 1.5rem;
+      font-family: "Jura";
+      font-size: 2rem;
     }
+  
     p {
-        font-family: "Inter";
+      font-family: "Inter";
+
+      &:hover {
+        color: lightblue;
+        cursor: pointer;
     }
-}
+    }
+    
+  }
+  

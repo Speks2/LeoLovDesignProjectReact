@@ -5,7 +5,7 @@ import style from "../LeoBody/LeoBody.module.scss"
 function LeoBody() {
 
     return (
-        <body className={style.LeoBody}>
+        <div className={style.LeoBody}>
               {/* INTET PROBLEMER */}
             <div className={style.Intet}>
                 <h2>INTET PROBLEMER</h2>
@@ -40,7 +40,7 @@ function LeoBody() {
             </div>
              {/* MØD HOLDET */}
             <div className={style.Holdet}>
-                <h1>MØD HOLDET</h1>
+                <h2>MØD HOLDET</h2>
                 <img src="\src\assets\images\Ellipse 1.png" alt="pic1"/>
                 <p>John Harbinger ”Jeg er den mest successfulde advokat i firmaet. I hvert fald mere end Peter.”</p>
                 <img src="\src\assets\images\Ellipse 2.png" alt="pic2" />
@@ -51,7 +51,7 @@ function LeoBody() {
                 <p>Morten Nate “Jeg er født på landet. På landet er der ingen ret og lov. Det er det vilde vest derude.”</p>
             </div>
             
-        </body>
+        </div>
     )
   }
   

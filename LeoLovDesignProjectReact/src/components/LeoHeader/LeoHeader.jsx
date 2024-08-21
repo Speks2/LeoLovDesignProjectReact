@@ -15,7 +15,7 @@ function LeoHeader() {
           <div>
           {/* CARDS */}
           <div className={style.CardContainer}>
-          <div className={style.Card1}><h3>Familieret</h3>
+          <div className={style.Card1}><h3>Familieret</h3> 
            <p>
            Familieret er en ret alle har. Har du en familie har du sikkert ret til familieret. Medmindre du altid er den der tror du har ret. Så kan vi desværre ikke hjælpe dig.
            </p>

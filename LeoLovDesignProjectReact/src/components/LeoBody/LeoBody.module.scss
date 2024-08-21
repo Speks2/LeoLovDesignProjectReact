@@ -74,9 +74,11 @@
         margin: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1rem; 
         align-items: center; 
-        h2 {
+        div {
+            height: 100%;
+            border-right: 8px solid #2c3b6f;
+           h2 {
             margin-left: 2rem;
             margin-bottom: 10rem;
         }
@@ -84,11 +86,14 @@
             margin-top: 4rem;
             margin-left: 2rem;
             
+        } 
         }
+        
       }
       .Garanti img {
-        width: 40vw;
-        border-left: 8px solid #2c3b6f;
+        border-left: 0 solid #2c3b6f;
+ 
+        width: 100%;
       }
      
 //    HER BOR VI 

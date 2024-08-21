@@ -40,9 +40,6 @@ function LeoFooter() {
                 <img src="\src\assets\images\Vector-1.png" alt="Facebook"/>
                 <img src="\src\assets\images\Vector.png" alt="Instagram" />
               </div>
-              
-        
-
         </footer>
       </>
     )

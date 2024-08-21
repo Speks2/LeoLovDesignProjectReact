@@ -12,6 +12,11 @@
     max-width: 100%;
     img {
         padding: 1rem;
+
+        &:hover {
+          filter: brightness(50%);
+          cursor: pointer;
+        }
     }
   
     h3, p {

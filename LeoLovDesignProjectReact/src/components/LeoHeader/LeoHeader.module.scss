@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 // HEADER
 .LeoHeader {
-    div {
+    .Title {
         h1 {
         font-family: "Jura", sans-serif;
         font-size: 128px;
@@ -11,27 +11,20 @@
         text-align: left;
         color: #FAFAFA;
         margin-left: 70%;
-        
-        div {
-            color: #002BC2;
-            
-        }
         position: absolute;
-     
     }
-    h2 {
-        font-family: "Inter", sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19.36px;
-        text-align: left;
-        color: #FAFAFA;
-        position: absolute;
-        margin-top: 25rem;
-        margin-left: 70%;
+    p {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.36px;
+      text-align: left;
+      color: #FAFAFA;
+      position: absolute;
+      margin-top: 15rem;
+      margin-left: 71%;
 
-    } 
-
+  } 
     }
   //  HEADER IMAGE
     img {
@@ -41,32 +34,35 @@
     }
     // CARD CONTAINER
     .CardContainer {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr); 
-      gap: 1rem; 
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 1rem; 
         justify-content: space-between; 
         gap: 2; 
         padding: 2;
+        margin-top: -7.5rem;
+        margin-left: 6.5rem;
       
         // CARDS
         .Card1, .Card2, .Card3, .Card4 {
           background-color: #fAfAfA;
-          border: 8px solid #000000; 
+          border: 2px solid #000000; 
           border-radius: 8px; 
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
           padding: 5vh;
           transition: transform 0.4s ease;
           display: grid;
-          height: 20rem;
+          height: 23rem;
           width: 13rem;
           h3 {
             font-family: "Jura";
             color: rgba(0, 43, 194, 1);
-            font-size: 1.5rem;
+            font-size: 2rem;
             ;
           }
           p {
             font-family: "Inter";
+            font-size: 1.2rem;
           }
         
           &:hover {

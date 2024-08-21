@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-    
+    // BODY
     .LeoBody {
         background: #FAFAFA;
+        width: 80%;
+        margin: auto;
          h2 {
             font-family: "Jura";
             color: rgba(0, 43, 194, 1);
@@ -11,6 +13,7 @@
          }
          p {
             font-family: "Inter";
+            font-size: 1.3rem;
          }
             img {
              width: 596px;
@@ -21,7 +24,8 @@
              border: 8px 0px 8px 8px;
             }
         
-    }
+    };
+    // MØD HOLDET
     .Holdet {
         display: grid;
         grid-template-columns: repeat(1fr, 4fr); 
@@ -31,6 +35,7 @@
         p {
             border-bottom: 8px solid rgba(44, 59, 111, 1);
             padding-bottom: 2rem; 
+            font-size: 1.3rem;
             
         }
         img {
@@ -40,17 +45,70 @@
             left: 131px;
             gap: 2rem;
         }
-    }
+    };
+    // INTET PROBLEMER
     .Intet {
         border: 8px solid rgba(44, 59, 111, 1);
         margin: 1rem;
-        
-    }
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem; 
+        align-items: center; 
+        h2 {
+            margin-left: 2rem;
+            margin-bottom: 10rem;
+        }
+        p {
+            margin-top: 4rem;
+            margin-right: 2rem;
+
+        }
+      }
+      .Intet img {
+        width: 100%;
+        border-right: 8px solid rgb(44, 59, 111)
+      }
+    //   EVIG GARANTI
     .Garanti {
         border: 8px solid rgba(44, 59, 111, 1);
         margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem; 
+        align-items: center; 
+        h2 {
+            margin-left: 2rem;
+            margin-bottom: 10rem;
+        }
+        p {
+            margin-top: 4rem;
+            margin-left: 2rem;
+            
+        }
+      }
+      .Garanti img {
+        width: 40vw;
+        border-left: 8px solid #2c3b6f;
+      }
+     
+//    HER BOR VI 
+.BorVi {
+    border: 8px solid #2c3b6f;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; 
+    align-items: center; 
+    h2 {
+        margin-left: 2rem;
+        margin-bottom: 10rem;
     }
-    .BorVi {
-        border: 8px solid rgba(44, 59, 111, 1);
-        margin: 1rem;
+    p {
+        margin-top: 4rem;
+        margin-right: 4rem;
     }
+  }
+  .BorVi img {
+    width: 100%;
+    border-right: 8px solid #2c3b6f
+  }

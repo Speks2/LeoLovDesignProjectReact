@@ -1,4 +1,4 @@
-import style from "../LeoFooter/LeoFooter.module.scss"
+import style from "./LeoFooter.module.scss"
 
 
 

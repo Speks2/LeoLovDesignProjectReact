@@ -1,4 +1,4 @@
-import style from "../LeoBody/LeoBody.module.scss"
+import style from "./LeoBody.module.scss"
 
 
 
@@ -8,24 +8,30 @@ function LeoBody() {
         <div className={style.LeoBody}>
               {/* INTET PROBLEMER */}
             <div className={style.Intet}>
+            <img src="\src\assets\images\brock-wegner-o4jSaomEvJk-unsplash (1).jpg" alt="Money" />
+                <div>
                 <h2>INTET PROBLEMER</h2>
                 <p>Leo-lov har altid været det bedste advokatfirma i verden. Der er simpelthen ingen der kan måle sig med os. Vi kan løse alle problemer så længe du har penge. Hvis du mod alt forventning skulle oplevel at støde på et retsligt problem som leo-lov ikke kan løse får du halvdelen af beløbet igen.
-
-
-                 Det er sådan vi har skabt en forretning der ikke kan andet end at vokse</p>
-                 <img src="\src\assets\images\brock-wegner-o4jSaomEvJk-unsplash (1).jpg" alt="Money" />
+                 Det er sådan vi har skabt en forretning der ikke kan andet end at vokse!</p>
+                </div>
+                
             </div>
              {/* EVIG GARANTI  */}
             <div className={style.Garanti}>
-                <h2>EVIG GARANTI</h2>
+            
+                <div>
+                    <h2>EVIG GARANTI</h2>
                 <p>Leo-lov har altid været det bedste advokatfirma i verden. Der er simpelthen ingen der kan måle sig med os. Vi kan løse alle problemer så længe du har penge. Hvis du mod alt forventning skulle oplevel at støde på et retsligt problem som leo-lov ikke kan løse får du halvdelen af beløbet igen.
 
 
                  Det er sådan vi har skabt en forretning der ikke kan andet end at vokse!</p>
+                </div>
                 <img src="\src\assets\images\armando-arauz-v_BWg0OnFmk-unsplash (1).jpg" alt="City" />
             </div>
             {/* HER BOR VI */}
             <div className={style.BorVi}>
+            <img src="src\assets\images\leolov-location.PNG" alt="map" />
+                <div>
                 <h2>HER BOR VI</h2>
                 <p>Vi har valgt at bosætte os i solen! 
 
@@ -36,7 +42,8 @@ function LeoBody() {
                 <p>Leo-Lov ApS 
                    Maldive rd. 22 
                    Seychelles</p>
-                <img src="src\assets\images\leolov-location.PNG" alt="map" />
+                </div>
+                
             </div>
              {/* MØD HOLDET */}
             <div className={style.Holdet}>

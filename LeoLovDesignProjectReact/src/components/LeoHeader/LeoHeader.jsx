@@ -1,4 +1,4 @@
-import style from "../LeoHeader/LeoHeader.module.scss"
+import style from "./LeoHeader.module.scss"
 
 
 
@@ -7,9 +7,9 @@ function LeoHeader() {
     return (
       <>
         <header  className={style.LeoHeader}>
-          <div>
-            <h1><div>Leo</div>-Lov</h1>
-          <h2>Lov og ret kan være et plaster! Hvis du ellers har knaster!</h2>
+          <div className={style.Title}>
+            <h1><span style={{ color: '#002BC2' }}>Leo</span>-Lov</h1>
+          <p>Lov og ret kan være et plaster! Hvis du ellers har knaster!</p>
           </div> 
           <img src="src/assets/images/nastuh-abootalebi-eHD8Y1Znfpk-unsplash (1).jpg" alt="headerImage"/>
           <div>

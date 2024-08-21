@@ -27,29 +27,33 @@
     };
     // MØD HOLDET
     .Holdet {
-        display: grid;
-        grid-template-columns: repeat(1fr, 4fr); 
-        display: grid;
-        grid-template-columns: 4fr 1fr;
-        gap: 1rem; 
-        align-items: center; 
         h2 {
             font-size: 2.5rem;
+            margin-left: 41%;
+            margin-top: 2rem;
         }
         p {
             border-bottom: 8px solid rgba(44, 59, 111, 1);
+            margin: 1rem;
             padding-bottom: 2rem; 
             font-size: 1.3rem;
+            display: grid;
+            grid-template-columns: repeat(1fr, 4fr); 
             
         }
         img {
-            width: 200px;
-            height:200px;
-            top: 2464px;
-            left: 131px;
-            gap: 2rem;
+            width: 10vw;
+            height:20vh;
+            display: grid;
+            grid-template-columns: repeat(1fr, 4fr); 
         }
     };
+
+    .Holdet > div{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+    }
+
     // INTET PROBLEMER
     .Intet {
         border: 8px solid rgba(44, 59, 111, 1);

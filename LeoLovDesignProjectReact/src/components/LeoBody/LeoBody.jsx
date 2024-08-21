@@ -28,6 +28,20 @@ function LeoBody() {
                 </div>
                 <img src="\src\assets\images\armando-arauz-v_BWg0OnFmk-unsplash (1).jpg" alt="City" />
             </div>
+
+              {/* MØD HOLDET */}
+              <div className={style.Holdet}>
+                <h2>MØD HOLDET</h2>
+                <img src="\src\assets\images\Ellipse 1.png" alt="pic1"/>
+                <p>John Harbinger ”Jeg er den mest successfulde advokat i firmaet. I hvert fald mere end Peter.”</p>
+                <img src="\src\assets\images\Ellipse 2.png" alt="pic2" />
+                <p> Peter Parker “Jeg holder af kaffe og så er jeg helt enormt succesfuld. Meget mere end John”</p>
+                <img src="\src\assets\images\Ellipse 3.png" alt="pic3" />
+                <p>Elise Li “Uden ret og lov, kunne vi ligeså godt bo i en skov. Sådan har jeg altid sagt.”</p>
+                <img src="\src\assets\images\Ellipse 4.png" alt="pic4" />
+                <p>Morten Nate “Jeg er født på landet. På landet er der ingen ret og lov. Det er det vilde vest derude.”</p>
+            </div>  
+            
             {/* HER BOR VI */}
             <div className={style.BorVi}>
             <img src="src\assets\images\leolov-location.PNG" alt="map" />
@@ -45,19 +59,7 @@ function LeoBody() {
                 </div>
                 
             </div>
-             {/* MØD HOLDET */}
-            <div className={style.Holdet}>
-                <h2>MØD HOLDET</h2>
-                <img src="\src\assets\images\Ellipse 1.png" alt="pic1"/>
-                <p>John Harbinger ”Jeg er den mest successfulde advokat i firmaet. I hvert fald mere end Peter.”</p>
-                <img src="\src\assets\images\Ellipse 2.png" alt="pic2" />
-                <p> Peter Parker “Jeg holder af kaffe og så er jeg helt enormt succesfuld. Meget mere end John”</p>
-                <img src="\src\assets\images\Ellipse 3.png" alt="pic3" />
-                <p>Elise Li “Uden ret og lov, kunne vi ligeså godt bo i en skov. Sådan har jeg altid sagt.”</p>
-                <img src="\src\assets\images\Ellipse 4.png" alt="pic4" />
-                <p>Morten Nate “Jeg er født på landet. På landet er der ingen ret og lov. Det er det vilde vest derude.”</p>
-            </div>
-            
+           
         </div>
     )
   }
